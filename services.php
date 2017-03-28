@@ -76,7 +76,15 @@
              <BR><BR> <br><h2>Whole Home Remodelling :</h2> Is your home or investment property tired, dated and stuck in another era? Our outstanding 6-week whole home renovations will breathe new life into your space, add instant equity and boost your lifestyle.
 
              <br> <br> <BR><h2>Curbside Appeal :</h2>Does the outside of your home or investment property look shabby? In 4 weeks we can revitalize your ultra drab facade and gardens into a neighbourhood showstopper.
-              <br><br><BR><h3 style="word-spacing: 30px;">ELCTRICAL     MECHANICAL      PLUMBING      CARPENTERY      PAINTING </h3>
+             <br><br><BR>
+             <h3 style="word-spacing: 30px;">
+             <a href="Login/log_sign.php">Electritian</a>
+             <a href="Login/log_sign.php">Mechanic</a>
+             <a href="Login/log_sign.php">Plumber</a>
+             <a href="Login/log_sign.php">Carpenter</a>
+             <a href="Login/log_sign.php">Painter</a>
+             </h3>
+             <!--  <h3 style="word-spacing: 30px;">ELCTRICAL     MECHANICAL      PLUMBING      CARPENTERY      PAINTING </h3> -->
             </P>
             </BR>
             </div>

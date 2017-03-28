@@ -59,18 +59,16 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="bgded overlay" style="background-image:url('photo/home.jpg'); background-size: cover;position: absolute; width:100%;height:100%;left: 0px;top:180px;">
-  <div id="pageintro" class="hoc clear"> 
+   
     <!-- ################################################################################################ -->
-    <div >
+   <div style="position: relative;top:50px; text-align: center;width: 1000px;height: 300px; left: 150px;">
           <article>
-            <!--<p>Duis lacinia rhoncus volutpat quisque</p>-->
-            <font size="50px" style="position: relative;top:0px; left: 200px;">WELCOME TO HOMEKART</font>
-            
-            <!-- contact details  -->
-            
+            <font size="50px" style="position: relative;top:0px; left: 40px;">CONTACT HOMEKART</font>
+              <div style="position: absolute; top:100px;left:100px;"><img src="photo/a.jpg" style="border-radius:100%; width: 200px;height: 200px;"><br>XYZ ABCh<br>1234567890<br>HOMEKART@HOME.COM</div>
 
+               <div style="position: absolute; top:100px;left:450px;"><img src="photo/a.jpg" style="border-radius:100%; width: 200px;height: 200px;"><br>XYZ ABC<br>1234567890<br>HOMEKART@HOME.COM</div>
 
-            </p>
+               <div style="position: absolute; top:100px;left:800px;"><img src="photo/a.jpg" style="border-radius:100%; width: 200px;height: 200px;"><br>XYZ ABC<br>1234567890<br>HOMEKART@HOME.COM</div>
           </article>
     </div>
     <!-- ################################################################################################ -->

@@ -32,7 +32,7 @@ $Work = $_POST["work"];
 	}
 	else
 	 {
-	// 	echo "<script>alert ('Wrong id or password')</script>";
+	 	//echo "<script>alert ('Wrong id or password')</script>";
 		$error ="Wrong id or password";
 
 		//header("Location: http://192.168.0.102/Login/index.html");
@@ -61,7 +61,7 @@ $Work = $_POST["work"];
 	}
 	else
 	 {
-	// 	echo "<script>alert ('Wrong id or password')</script>";
+	 	//echo "<script>alert ('Wrong id or password')</script>";
 		$error ="Wrong id or password";
 
 

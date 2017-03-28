@@ -50,6 +50,13 @@
         <div id="content">
            
             <div class="title"></div> 
+            <div style="width:200px; height: 40px;text-align: center;              
+        position: fixed;top:20px;right:10px;">    
+          
+         <h3><A href="../../logout.php" ><font color="black">Logout</font></A></h3>
+         <br>
+            <h5><p class=" text-info"><font color="black"><?php echo date("Y-m-d h:i:sa") ;?></font></p>    <p class=" text-info"></h5>
+         </div>
 
             <div class="navigation" id="nav">
                 <div class="item user">
@@ -58,7 +65,6 @@
                     <h2>Electrician</h2>
                     <ul>
                         <li><a href="http://localhost/homekart/request/Electician.php">Book</a></li>
-                        <li><a href="#">Rate service</a></li>
                         <li><a href="http://localhost/homekart/track/electician.php" >track</a></li>
                     </ul>
                 </div>
@@ -68,8 +74,8 @@
                     <h2>Mechanic</h2>
                     <ul>
                         <li><a href="http://localhost/homekart/request/Mechanic.php">Book</a></li>
-                        <li><a href="#">Rate Services</a></li>
-                        <li><a href="#">Track</a></li>
+                        
+                        <li><a href="http://localhost/homekart/track/mechanic.php">Track</a></li>
                     </ul>
                 </div>
                 <div class="item shop">
@@ -78,8 +84,8 @@
                     <h2>Carpenter</h2>
                     <ul>
                         <li><a href="http://localhost/homekart/request/Carpainter.php">Book</a></li>
-                        <li><a href="#">Rate Services</a></li>
-                        <li><a href="#">Track</a></li>
+                        
+                        <li><a href="http://localhost/homekart/track/carpainter.php">Track</a></li>
                     </ul>
                 </div>
                 <div class="item camera">
@@ -88,8 +94,8 @@
                     <h2>Painter</h2>
                     <ul>
                         <li><a href="http://localhost/homekart/request/Painter.php">Book</a></li>
-                        <li><a href="#">Rate Services</a></li>
-                        <li><a href="#">Track</a></li>
+                        
+                        <li><a href="http://localhost/homekart/track/painter.php">Track</a></li>
                     </ul>
                 </div>
                 <div class="item fav">
@@ -98,8 +104,8 @@
                     <h2>Plumber</h2>
                     <ul>
                         <li><a href="http://localhost/homekart/request/Plumber.php">Book</a></li>
-                        <li><a href="#">Rate Services</a></li>
-                        <li><a href="#">Track</a></li>
+                        
+                        <li><a href="http://localhost/homekart/track/plumber.php">Track</a></li>
                     </ul>
                 </div>
             </div>

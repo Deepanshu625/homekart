@@ -64,6 +64,34 @@
       <input type="text" placeholder="State" name="state" />
       <input type="text" placeholder="Username" name="UserName" />
       <input type="password" placeholder="Password" name="Password" />
+      <div left="10px;" >
+      <table style="width: 100%;height: 100px;">
+      <tr>
+        <td style="width: 50%;position: relative;left:0px;"><font color="white">User</font></td>
+        <td style="width: 50%; position: relative;top:19px;"><input type="radio" name="work" value="user" checked></td>
+      </tr>
+      <tr>
+        <td style="width: 50%;"><font color="white">Electrician</td>
+        <td style="width: 50%; position: relative;top:19px;"> <input type="radio" name="work" value="Electitian"> </td>
+      </tr>
+       <tr>
+        <td style="width: 50%;"><font color="white">Painter</td>
+        <td style="width: 50%; position: relative;top:19px;"> <input type="radio" name="work" value="Painter"> </td>
+      </tr>
+       <tr>
+        <td style="width: 50%;"><font color="white">Carpenter</td>
+        <td style="width: 50%; position: relative;top:19px;"> <input type="radio" name="work" value="Carpainter"> </td>
+      </tr>
+       <tr>
+        <td style="width: 50%;"><font color="white">Plumber</td>
+        <td style="width: 50%; position: relative;top:19px;"> <input type="radio" name="work" value="Plumber"> </td>
+      </tr>
+       <tr>
+        <td style="width: 50%;"><font color="white">Mechanic</td>
+        <td style="width: 50%; position: relative;top:19px;"> <input type="radio" name="work" value="Mechanic"> </td>
+      </tr>
+      </table>
+      </div>
      
       <input type="submit" name="register">
     </form>

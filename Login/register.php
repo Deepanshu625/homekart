@@ -16,19 +16,41 @@ $pincode = $_POST["pincode"];
 $state = $_POST["state"];
 $UserName = $_POST["UserName"];
 $Password = $_POST["Password"];
+$Work = $_POST["work"];
 
-$sql1 = "Select * FROM User_detail where UserName='$UserName'";
-$l1=$conn->query($sql1);
-if ($l1->num_rows > 0)
-{
-	echo "User already exist"; 
-}
+if($Work=="user")
+	{
+		$sql1 = "Select * FROM User_detail where UserName='$UserName'";
+		$l1=$conn->query($sql1);
+		if ($l1->num_rows > 0)
+		{
+			echo "User already exist"; 
+		}
+		else
+		{
+			$sql = " INSERT INTO User_detail VALUES ('$FirstName' , '$LastName' , '$email_id' , '$mobile_contact' , '$occupation' , '$address' , '$city' , '$pincode' , '$state', '$UserName', '$Password' )";
+			$l=$conn->query($sql);
+	//echo "Register";
+			echo "<script>alert ('Registerd successfully')</script>";
+			header("Location: log_sign.php");
+		}
+	}
 else
 {
-	$sql = " INSERT INTO User_detail VALUES ('$FirstName' , '$LastName' , '$email_id' , '$mobile_contact' , '$occupation' , '$address' , '$city' , '$pincode' , '$state', '$UserName', '$Password' )";
-	$l=$conn->query($sql);
+	$sql1 = "Select * FROM Employee_detail where UserName='$UserName'";
+	$l1=$conn->query($sql1);
+	if ($l1->num_rows > 0)
+	{
+		echo "User already exist"; 
+	}
+	else
+	{
+		$sql = " INSERT INTO Employee_detail VALUES ('$FirstName' , '$LastName' , '$email_id' , '$mobile_contact' , '$occupation' , '$address' , '$city' , '$pincode' , '$state', '$UserName', '$Password','$Work' )";
+		$l=$conn->query($sql);
 	//echo "Register";
-	header("Location: menupage/index.php");
+		echo "<script>alert ('Registerd successfully')</script>";
+		header("Location: log_sign.php");
+	}
 }
 
 

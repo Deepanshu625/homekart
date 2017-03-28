@@ -69,7 +69,7 @@
             <footer>
               <ul class="nospace inline pushright">
                 <li><a class="btn" href="about.php">About Us</a></li>
-                <li><a class="btn inverse" href="service.php">Services</a></li>
+                <li><a class="btn inverse" href="services.php">Services</a></li>
               </ul>
             </footer>
           </article>
@@ -87,20 +87,7 @@
             </footer>
           </article>
         </li>
-        <li>
-          <article>
-            <!--<p>Varius diam proin sed est sed urna</p>-->
-            <h3 class="heading">WELCOME TO HOMEKART</h3>
-            <p>Improve your home from the ground up.<br>A to Z Home Rennovation</p>
-            <footer>
-              <ul class="nospace inline pushright">
-                <li><a class="btn" href="about.php">About Us</a></li>
-                <li><a class="btn inverse" href="services.php">Services</a></li>
               </ul>
-            </footer>
-          </article>
-        </li>
-      </ul>
     </div>
     <!-- ################################################################################################ -->
   </div>

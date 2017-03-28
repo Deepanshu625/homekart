@@ -4,8 +4,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Book An Electrician</title>
+<title>Book A Carpainter</title>
  <link rel="shortcut icon" href="/HomeKart_Services/img/logo.jpg" />
+ <style type="text/css">		
+ fieldset		
+ {		
+ 	width: 550px;		
+ 	position: relative;		
+ 	left:400px;		
+ 	border-radius: 5%;		
+ 	background-color: grey;		
+ 	opacity: 0.8;		
+ }		
+ 	fieldset:hover		
+ 	{    		
+ 		background-color:#FF5733;		
+ 		border-radius: 5%;		
+ 		box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;		
+ 	}		
+ </style>
 	<script>
 function onlyAlphabets(nkey)
 {
@@ -119,7 +136,7 @@ background-attachment: fixed;}
 </style>
 
 
-<body>
+<body style="background:url('../photo/home.jpg');background-repeat:none;background-size: cover;>
 <div class="top"><ul>
            <!-- <li><a  href="index.html#home">Home</a></li> -->
            <!-- <li><a href="index.html#about">About Us</a></li> -->
@@ -133,38 +150,48 @@ background-attachment: fixed;}
  <div class="up" >
   
   <p>&nbsp;</p>
-  <p align="center" class="style1">Book An Electrician Here</p>
-  <p>&nbsp;</p>
-  <form id="form1" name="form1" method="post" action="paste_it.php?id='Electician'" onsubmit="return validate()">
+  <div style="width:200px; height: 50px;text-align: center;              
+        position: fixed;top:20px;right:10px;">    
+         
+         <h2><A href="../logout.php" ><font color="#FADC08">Logout</font></A></h2>
+       
+
+        </div>
+  
+  <form id="form1" name="form1" method="post" action="paste_it.php?id='Electitian'" onsubmit="return validate()">
+  	<fieldset>
+  	<legend align="center"><font size="6px" color="black" ><h3>[Book Your Electricion Here]</h3></font></legend>
     <center>
-        <table width="810" height="173" border="0">
+        <table width="500px" height="auto"  >
         <tr>
-          <td width="400" height="58"><p>
-              <input type="text" class="textbox" onkeypress="return onlyAlphabets(event);"  name="name" placeholder="Enter Your Name..." required style="width:400px;" />
+          <td  colspan="2" ><p>
+              <input style="width:100%; height: 30px; " type="text" class="textbox" onkeypress="return onlyAlphabets(event);"  name="name" placeholder="Enter Your Name..." required />
           </p></td>
-          <td width="400"><p>
-              <input type="text" class="textbox"  name="mobile"  size="10" maxlength="10" id="mobile" onKeyPress="return numbersOnly(this,event);" placeholder="Mobile Number..." required style="width:400px;" required/>
+          </tr>
+          <tr >
+          <td   colspan="2"><p>
+              <input style="width:100%; height: 30px;" type="text" class="textbox"  name="mobile"  size="10" maxlength="10" id="mobile" onKeyPress="return numbersOnly(this,event);" placeholder="Mobile Number..." required/>
           </p></td>
         </tr>
         <tr>
-          <td height="58" colspan="2"><p>
-              <input type="email" class="textbox"  name="email"  placeholder=" Enter Your Email..." required style="width:800px;" />
+          <td colspan="2"><p>
+              <input style="width:100%; height: 30px;" type="email" class="textbox"  name="email"  placeholder=" Enter Your Email..." required  />
           </p></td>
         </tr>
-		<tr><td height="58"><span  class="style113">
-          <input class="textbox" type="time" name="time" required style="width:400px;"> </span></td>
-		  <td height="58"><p>
-              <input type="date" class="textbox" id="date" name="date"  placeholder="date" required style="width:400px;" />
+		<tr><td ><span  class="style113">
+          <input style="width: 97%; height: 30px;" class="textbox" type="time" name="time" required> </span></td>
+		  <td ><p>
+              <input style="width: 98%; height: 30px;" type="date" class="textbox" id="date" name="date"  placeholder="date" required " />
           </p></td>
         </tr>
 		<tr>
-          <td height="58" colspan="2"><p>
-              <input type="text" class="textbox"  name="address"  placeholder=" Enter Your Address..." required  style="width:800px;" />
+          <td  colspan="2"><p>
+              <input style="width: 100%; height: 30px;" type="text" class="textbox"  name="address"  placeholder=" Enter Your Address..." required  />
           </p></td>
         </tr>
 		
         <tr>
-          <td height="49" colspan="2"><label></label>
+          <td colspan="2"><label></label>
               <div align="center">
 			  <input type="submit" name="paste" class="button1" id="submit" style="height:auto; width:200px"; >
             </div></td>
@@ -172,29 +199,15 @@ background-attachment: fixed;}
       </table>
 
     </center>
-  </form>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-</div>
-<!-- Footer start -->
-	<footer><div style="background-color:#333333" align="right">
-    <div align="center">
-      <p class="style5">&nbsp;</p>
-      <p class="style5">Contact Us : </p>
-      <!-- <p><a href="#"><img src="img/facebook.png" alt="facebook" width="60" height="60" /><img src="img/youtube.png" alt="youtube" width="60" height="60"></a> -->
-        <!-- <a href="#"><img src="img/twitter.png" alt="twitter" width="60" height="60"></a> -->
-        <!-- <a href="#"> <img src="img/flickr.png" alt="fliker" width="60" height="60"></a> -->
-        <!-- <a href="#">  <img src="img/myspace.png" alt="myspace" width="60" height="60"></a> -->
-        <!-- Contact section end -->
-      </p>
-      <p  align="center" class="style9 style5">Copyright ©2017 All Right Reserved . Department Of Computer Apllication (NITD).</p>
-      <p  align="center" class="style9 style5">&nbsp;</p>
     </div>
-	</div>
- 
-</footer>
+    </fieldset>
+  </form>
+  
+  
+</div>
 
-	<!-- Footer end  -->
+
+	
 
 
 </body>

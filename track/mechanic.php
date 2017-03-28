@@ -88,7 +88,7 @@
         </style>
         </head>
 
-<body>
+<body style="background:url('../photo/imagess.jpg');background-repeat:none;">
 
 
   <?php if(!isset($_SESSION['javastop'])):?>
@@ -132,7 +132,13 @@
       <div class="row">
       <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
            
-
+          <div style="width:200px; height: 40px;background-color:#FA8258;text-align: center;              
+        position: fixed;top:20px;right:10px;">    
+          
+         <A href="../logout.php" ><font color="black">Logout</font></A>
+       <br>
+<p class=" text-info"><font color="black"><?php echo date("Y-m-d h:i:sa") ;?></font></p>    <p class=" text-info">
+        </div>
         
        <br>
 <p class=" text-info"><?php echo date("Y-m-d h:i:sa") ;?></p>
